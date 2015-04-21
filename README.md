@@ -1,4 +1,6 @@
-#### This is a multithreaded program that will read user input from stdin as a stream, parse it, and output it with small modifications, as outlined below. Data flow is controlled through the use of semaphores.
+### Overview
+
+This is a multithreaded program that will read user input from stdin as a stream, parse it, and output it with small modifications, as outlined below. Data flow is controlled through the use of semaphores.
 
 1. Upon encountering a newline in the input, it will output a space. Upon encountering **, it will output ^.
 
